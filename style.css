@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #27374d;
+}
+input#userInput {
+  background-color: transparent;
+  border: 1px solid #fcb476;
+  border-radius: 4px;
+  color: #fcb476;
+}
+input#userInput::placeholder {
+  color: #fcb476;
+}
+button#addBtn {
+  color: #fcb476;
+  border: 1px solid #fcb476;
+  border-radius: 4px;
+  margin-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.userlist {
+  padding-left: 0px;
+}
+.userlist li {
+  list-style-type: none;
+  color: #fcb476;
+  font-size: 20px;
+}
